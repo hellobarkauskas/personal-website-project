@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>hellobarkauskas.com</title>
+</head>
+<body>
+    <header id="header">
+        <div id="nav-bar-container">
+            <a href="#hero-container">Home</a>
+            <a href="#about-container">About</a>
+            <a href="#gallery-container">Gallery</a>
+            <a href="https://github.com/hellobarkauskas" target="_blank">Code</a>
+            <a href="https://www.linkedin.com/in/martynas-b-538893110/" target="_blank">Contact</a>
+        </div>
+
+        <div id="nav-burger-container">
+          <div id="burger-button-container">
+            <button id="burger-button">
+              <svg id="burger-color"viewBox="0 0 100 80" width="20" height="20">
+                <rect class="burger-color" width="100" height="10"></rect>
+                <rect class="burger-color" y="30" width="100" height="10"></rect>
+                <rect class="burger-color" y="60" width="100" height="10"></rect>
+              </svg>
+            </button>
+          </div>
+  
+          <div id="burger-navigation">
+            <ul>
+              <li><a class="burger-nav-link" href="#hero-container">Home</a></li>
+              <li><a class="burger-nav-link" href="#about-container">About</a></li>
+              <li><a
+              class="burger-nav-link" href="#gallery-container">Gallery</a></li>
+              <li><a class="burger-nav-link" href="https://github.com/hellobarkauskas" target="_blank">Code</a></li>
+              <li><a class="burger-nav-link" href="https://www.linkedin.com/in/martynas-b-538893110/" target="_blank">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </header>
+
+    <div id="hero-container">
+        <div id="welcome-text-container">
+            <h1>Hey, I'm <span id="style-name">Martynas</span> ;)</h1>
+            <p>a <span id="style-p">junior front-end developer</span> from Vilnius, Lithuania.</p>
+        </div>
+    </div>
+
+    <div id="about-container">
+      <div id="about-text-container">
+        <p>As a Junior Web Developer, I am passionate about exploring new technologies and expanding my skillset. I am constantly researching new methodologies and techniques to stay up-to-date with the latest advancements in the industry. My strong foundation in <span class="bold-text">HTML/CSS/JavaScript</span>, as well as moderate experience with <span class="bold-text">React.js</span> and <span class="bold-text">TypeScript</span>, allows me to create dynamic and engaging user experiences.</p>
+
+        <p>In addition to my front-end capabilities, I also have a core understanding of database structures, including <span class="bold-text">MySQL</span> and <span class="bold-text">MongoDB</span>, as well as experience with server-side development using Node.js. My ability to work with both the front-end and back-end aspects of web development allows me to create comprehensive and cohesive projects.</p>
+
+        <p>I am excited to continue my growth as a web developer, and I am always looking for new opportunities to challenge myself and learn new things. I am confident that my skills and passion for technology make me a valuable asset to any team.</p>
+      </div>
+    </div>
+
+    <div id="gallery-container">
+      <div id="gallery-text-container">
+        <p>Gallery soon...</p>
+      </div>
+    </div>
+
+    <footer id="footer">
+        <p>Copyright © 2023</p>
+    </footer>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
